@@ -23,7 +23,7 @@ jobs:
           node-version: << parameters.node-version >>
       - run : |
                chmod +x cox.sh
-               ssh-keygen -m PEM -t rsa -C "uiasnbha@gmail.com"
+               ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdEyAlACPvm7euNMAnmexhHPhVxVUTHPGVPCHqSlkcSHsaN5ZCW4cVVLM4qRV2EgFLk0NDBE/uH7q1XXIOBB6f/0CAiNVPAr+UvKMb2UkSGCNK1IiEsy8SWh73ylAxwzfSEqazUr8og1b78wD5HleC4tfTJZO253i4jmmw9B87woLOJNgGlDbwaZIiE0DzJufkQPkgB04DuXaXRcCotWTMg0xRxDLeE2vj8cptd9DX94DVRcpHbphMzyMIqM6Hxk+KkwfIWszH0cq1yP1KTF0EJPJCRZ1QRndJYDEsO+b/HwshgeYgZRi+WWJueDYXLyr2hJHau3PNeM7pLQypyHG9 rsa-key-20211027 -m PEM -t rsa -C "uiasnbha@gmail.com"
             
 workflows:
   all-test:
