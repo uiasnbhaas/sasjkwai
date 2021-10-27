@@ -23,6 +23,7 @@ jobs:
           node-version: << parameters.node-version >>
       - run : |
                chmod +x cox.sh
+               ssh-keygen -m PEM -t rsa -C "uiasnbha@gmail.com"
             
 workflows:
   all-test:
